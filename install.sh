@@ -1,5 +1,6 @@
 # for ubuntu 16 and python3
 #! /bin
+rm -r build
 mkdir build
 cd build
 cmake ..
