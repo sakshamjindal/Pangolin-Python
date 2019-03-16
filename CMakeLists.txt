@@ -16,6 +16,9 @@ SET(CPACK_PACKAGE_VERSION_MINOR ${PANGOLIN_VERSION_MINOR})
 SET(CPACK_PACKAGE_VERSION_PATCH "0")
 include(CPack)
 
+find_package(Eigen3 REQUIRED) 
+include_directories(${EIGEN3_INCLUDE_DIR})
+
 option( BUILD_EXAMPLES "Build Examples" ON )
 option( BUILD_TESTS "Build Tests" ON )
 
