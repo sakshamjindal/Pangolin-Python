@@ -1,4 +1,4 @@
-from env_g2opy:latest
+from hylee101001/slam:p35_g2opy
 run apt-get update
 workdir /home/
 run mkdir pangolin
